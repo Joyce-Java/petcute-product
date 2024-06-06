@@ -1,0 +1,8 @@
+mode: dev
+spring:
+  jackson:
+    default-property-inclusion: non_null
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres?charSet=UTF-8
+    username: root
+    password: root
